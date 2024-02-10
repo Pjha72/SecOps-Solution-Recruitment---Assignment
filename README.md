@@ -1,20 +1,85 @@
-# EliteHomes App
+# SecOps Solution Recruitment - Assignment
 
-#### This repository contains the source code for a real estate web application built with React. The application allows users to browse, sell, and buy homes. Below you will find important information on how to get started with the project and the various technologies used.
+#### This repository contains the solution for the SecOps Solution recruitment assignment. The assignment involves building a responsive web-based CVE (Common Vulnerabilities and Exposures) database application using React.js. The application allows users to view, add, edit, and delete CVE records, providing a user-friendly interface for managing security vulnerabilities.
 
+## File Structre
+
+```
+project-root-directory/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── OAuth.jsx
+│   │   ├── PrivateRoute.jsx
+│   │   └── PrivateRoute.jsx , Slider.jsx
+│   │    
+│   ├── hooks/
+│   │   ├── useAuthStatus.jsx
+│   │ 
+|   ├── pages/ 
+│   │   ├── ForgotPassword.jsx
+|   |   ├── Home.jsx
+|   |   ├── Profile.jsx
+|   |   ├── SignIn.jsx
+|   |   ├── SignOut.jsx
+|   |
+│   ├── App.js
+│   ├── index.js
+│   └── config.jsx
+│
+├── node_modules/
+│   └── ...
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── ...
+```
+
+## Features
+### 1. View CVE Records:
+      a. Display a table layout showing CVE records.
+      b. Columns include CVE-ID, Severity, CVSS, Affected Packages, and CWE-ID.
+      c. Each row represents a single CVE record with corresponding details displayed.
+      d. "Edit" and "Delete" options in each row for managing CVE records.
+    
+### 2.Add CVE Record:
+      a. Click the "Add CVE" button to open a modal dialog.
+      b. Modal includes input fields for CVE-ID, Severity, CVSS, Affected Packages, and CWE-ID.
+      c. "Save" and "Cancel" buttons to confirm or cancel adding the new CVE record.
+      d. Input data validation to ensure all required fields are filled.
+
+### 3. Edit CVE Record:
+      a. Click the "Edit" option in each row to open a modal pre-filled with existing CVE details.
+      b. Modify CVE record details within the modal.
+      c. "Save" and "Cancel" buttons to confirm or cancel the changes.
+      d. Input data validation to ensure all required fields are filled.
+
+### 4.Delete CVE Record:
+      a. Click the "Delete" option in each row to prompt the user with a confirmation message.
+      b. Options to confirm or cancel the deletion of the CVE record.
+      c. If confirmed, permanently removes the CVE record from the data entries.
 
 ## Getting Started
 
+#### Follow these instructions to get a copy of the project up and running on your local machine.
 ### To run this project locally, follow these steps:
 
 #### Step-1 : Clone the repository to your local machine using the following command:
 ```
-git clone <repository_url>
+git clone https://github.com/Pjha72/SecOps-Solution-Recruitment---Assignment.git
 ```
 
 #### Step-2 : Navigate to the project directory:
 ```
-cd real-estate-app
+cd SecOps-Solution-Recruitment---Assignment
 ```
 
 #### Step-3 : Install the project dependencies:
@@ -108,5 +173,7 @@ npm start
 ### leaflet
 
 `https://leafletjs.com/download.html`
+
+
 
 
