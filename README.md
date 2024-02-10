@@ -42,6 +42,12 @@ project-root-directory/
 ├── README.md
 └── ...
 ```
+![image](https://github.com/Pjha72/SecOps-Solution-Recruitment---Assignment/assets/88606641/a1f6887e-426b-4d2b-b3fc-e9589ea67f66)
+![image](https://github.com/Pjha72/SecOps-Solution-Recruitment---Assignment/assets/88606641/2d2a7eab-c71e-4080-bef5-8ae9a4b60107)
+![image](https://github.com/Pjha72/SecOps-Solution-Recruitment---Assignment/assets/88606641/f02c5102-52e9-4138-a225-da32cb653bcd)
+
+
+
 
 ## Features
 ### 1. View CVE Records:
